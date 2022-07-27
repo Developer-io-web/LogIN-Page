@@ -1,0 +1,17 @@
+.darkblue{
+    background-color: darkblue;
+    color: white;
+    
+}
+
+.orange{
+    background-color: orange;
+    color: white;
+    margin-left:1rem;
+}
+
+@media (max-width:40em){
+    .darkblue,.orange{
+        display:none;
+    }
+}

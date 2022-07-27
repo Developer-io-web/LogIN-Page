@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+   
+
+}
+
+.left{
+    width:40%;
+    align-self: center;
+    justify-items: center;
+    
+}
+h1{
+    margin-bottom:0.5rem !important;
+}
+.content{
+    text-align: center;
+}
+
+.right{
+    width:60%;
+}
+.right img{
+    width:100%;
+    height:80vh;
+}
+
+@media (max-width:40em){
+    .right{
+        display:none;
+    }
+    .left{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left button{
+        width:auto !important;
+    }
+}
